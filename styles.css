@@ -1,0 +1,335 @@
+
+/*****************fonts***********/
+
+@font-face {
+    font-family: 'ralewaythin';
+    src: url('fonts/raleway-variablefont_wght-webfont.woff2') format('woff2'),
+         url('fonts/raleway-variablefont_wght-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+
+/****************general***************/
+*
+{
+    margin: 0;
+    padding: 0;
+}
+p
+{
+font-family:'ralewaythin',Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif ;
+}
+h1
+{
+    font-family:'ralewaythin',Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif ;
+    font-weight: bold;
+}
+h2
+{
+    font-family:'ralewaythin',Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif ;
+    font-weight: bold;
+}
+h3
+{
+    font-family:'ralewaythin',Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif ;
+    font-weight: 900;
+    font-size: 0.7em;
+}
+.fa
+{
+    margin-bottom: 3px;
+    color: blue;
+    
+}
+.etoiles
+ {
+    color: blue;
+  }
+#bloc_page
+{
+    width: 1000px;
+    margin: auto;
+}
+/****************header**********************/
+h1
+{
+    font-size: large;
+    margin-bottom: 0px;
+    font-weight: 900;
+}
+ header p
+ {
+     margin-top: 0px;
+ }
+
+header
+{
+display: flex;
+justify-content: space-between;
+align-items:flex-start ;
+flex-wrap: wrap;
+
+}
+
+#logo_reservia
+{
+   display: flex;
+   flex-direction: column;
+    align-self: baseline
+;
+}
+#logo_reservia img
+{height: 60px;
+width: 120px;
+padding-right: 330px;
+}
+
+#navigation
+{
+margin: auto;
+ margin-top: 20px;
+    width: 300px;
+    display: flex;
+}
+#navigation :hover
+{
+ 
+}
+nav ul a
+{
+display: flex;
+text-decoration: none;
+color: black;
+
+    list-style-type:none;
+    
+}
+li :hover
+{
+   
+    border-top: solid;
+    border-top-color:#0065FC;
+   margin-top: 20px;
+
+}
+nav li 
+{
+
+    margin-right: 30px;
+
+}
+#champs_de_recherche
+{
+    display: flex;
+    margin-top: 20px;
+    padding-right: 600px;
+}
+
+#filtres
+{
+  margin-top: 20px;
+  width: 500px;
+  margin: left;
+  display: flex;
+  flex-direction: row;
+
+}
+ ul
+{
+   display: flex;
+    flex-direction: row;
+    list-style-type: none;
+}
+ li
+{
+    
+    margin-right: 15px;
+}
+
+/***************section********************/
+
+section
+{
+    display: flex;
+  width: 1000px;
+  height: 450px;
+flex-direction: row;
+flex-wrap: wrap;
+justify-content: space-around;
+margin-top: 20px;
+
+}
+.hébergements
+{
+    width: 650px;
+    height: 400px;
+    display: flex;
+    flex-direction: row;   
+    justify-content: space-around;
+    background-color: #F2F2F2;
+    flex-wrap: wrap;
+    padding-right: 0%;
+    border-radius: 20px;
+    box-shadow: 6px;
+}
+.hébergements h2
+{
+   
+    margin-right: 300px;
+}
+
+.offres 
+{
+width: 180px;
+height: 140px;
+margin: auto;
+;
+background-color: white;
+box-shadow: 6px;
+border-radius: 15px;
+padding-top: 2px;
+padding-left: 2px;
+padding-right: 2px;
+}
+.offres h3
+{
+    margin-top: 2px;
+    margin-bottom: 2px;
+}
+.offres p
+{
+    margin-top: 0px;
+    margin-bottom: 2px;
+    font-size: 0.6em;
+}
+.offres img
+{
+ 
+width: 180px;
+height: 80px;
+border-top-left-radius:15px; 
+border-top-right-radius:15px; 
+
+
+}
+
+.populaires
+{
+    
+ display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+
+    width: 280px;
+    height: 400px;
+    background-color: #F2F2F2;
+    border-radius: 20px;
+    box-shadow: 6px;
+
+}
+.offres_pop
+{
+    display: flex;
+    
+    width: 85%;
+    height: 100px;
+    margin: auto;
+    background-color:white; 
+    box-shadow: 6px;
+    padding: 2px,2px,2px,2px;
+    border-radius: 15px;
+    justify-content: space-between;
+    padding-top: 2px;
+    padding-left: 2px;
+    padding-right: 2px;
+}
+.offres_text
+{
+margin: auto;
+}
+.img_pop img
+{
+width: 90px;
+height: 100px;
+border-top-left-radius:15px;
+border-bottom-left-radius: 15px;
+; 
+}
+.offres_pop h3
+{
+    margin-top: 3px;
+    font-size: 0.8em;
+    ;
+}
+
+.offres_pop p
+{
+  font-size: 0.6em;
+  margin-top: 15px;
+ 
+}
+.populaires h2 
+{
+
+   
+}
+
+/************************aside******************/
+
+aside
+{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    height: 400px;
+}
+aside h2
+{
+    margin-right: 750px;
+    align-self: start;
+}
+.activités_gd
+{
+box-shadow: 3px;
+}
+.activités_gd img
+{
+width: 90px;
+height: 120px;
+}
+
+.activités-s
+{
+
+}
+.activités-s img
+{
+width: 120px;
+height: 90px;
+}
+
+/*******************footer********************/
+
+footer
+{
+height: 120px;
+width: 100%;
+display: flex;
+justify-content: space-between;
+background-color: #F2F2F2;
+border-radius: 10px;
+}
+.Liens
+{
+display: flex;
+flex-direction: column;
+justify-content: space-around;
+margin: auto;
+line-height: 20px;
+}
+footer a
+{
+text-decoration: none;
+color: black;
+}
