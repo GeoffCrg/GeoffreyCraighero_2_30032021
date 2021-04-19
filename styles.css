@@ -45,6 +45,7 @@ header {
   justify-content: space-between;
   align-items: flex-start;
   flex-wrap: wrap;
+  margin-left: 50px;
 }
 
 .Top_page {
@@ -53,7 +54,7 @@ header {
   flex-wrap: wrap;
 }
 .logo img {
-  height: 35px;
+  height: 40px;
   width: 95px;
   margin-top: 50px;
   margin-right: 800px;
@@ -114,7 +115,7 @@ nav a {
   display: flex;
   height: 55px;
   width: 425px;
-  margin-right: 1200px;
+  margin-right: 920px;
 }
 
 .form_search {
@@ -169,7 +170,7 @@ nav a {
 .filtres {
   display: flex;
   margin-top: 20px;
-  margin-right: 600px;
+  margin-right: 380px;
   justify-content: space-between;
   align-items: baseline;
   width: 950px;
@@ -209,6 +210,7 @@ nav a {
   margin-left: 45px;
   font-weight: 600;
   padding-left: 1px;
+  white-space: nowrap;
 }
 .icones {
   display: flex;
@@ -233,7 +235,7 @@ section {
   width: auto;
   height: 650px;
   display: flex;
-  justify-content: space-between;
+  justify-content: space-evenly;
 }
 
 .hébergements {
@@ -532,7 +534,10 @@ footer a {
     margin-left: 20px;
   }
   .Top_page img {
-    margin-right: 500px;
+    margin-right: 350px;
+  }
+  .nav_inscrire {
+    float: left;
   }
   section {
     margin: auto;
@@ -598,6 +603,7 @@ footer a {
   }
   header {
     height: auto;
+    margin-left: 0;
   }
   .Top_page {
     width: auto;
