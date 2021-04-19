@@ -544,8 +544,6 @@ footer a {
     margin: auto;
   }
 
-  .hébergements h2 {
-  }
   .Afficher_plus h3 {
     margin-right: 400px;
   }
@@ -569,8 +567,7 @@ footer a {
   .offres_pop .img_pop {
     width: auto;
   }
-  .populaires {
-  }
+
   aside {
     margin-top: 200px;
     height: auto;
@@ -578,8 +575,6 @@ footer a {
     margin: auto;
   }
 
-  aside h2 {
-  }
   .activités {
     flex-wrap: wrap;
   }
@@ -593,8 +588,6 @@ footer a {
   .activités > div > a > img {
     height: 130px;
     width: 195px;
-  }
-  footer {
   }
 }
 
