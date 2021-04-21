@@ -620,16 +620,16 @@ footer a {
     display: flex;
   }
   .nav_border-top {
+    height: 50px;
     width: 100%;
     flex-direction: row;
     border-bottom: solid #f2f2f2;
-    padding-bottom: 15px;
     margin-top: 30px;
   }
   .nav_border-top a:hover {
     border-top: none;
-    border-bottom: solid #0065fc 2px;
-    padding-bottom: 15px;
+    border-bottom: solid #0065fc 3px;
+    padding-bottom: 30px;
     padding-left: 20px;
     padding-right: 20px;
     color: #0065fc;
@@ -641,6 +641,7 @@ footer a {
 
   .nav_hébergements {
     width: 50%;
+
     text-align: center;
   }
 
