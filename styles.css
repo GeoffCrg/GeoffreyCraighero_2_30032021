@@ -212,6 +212,7 @@ nav {
   font-size: 1.7em;
   color: #0065fc;
   margin-right: 80px;
+  border-color: transparent;
 }
 
 .infobulle p {
@@ -252,7 +253,6 @@ section {
   width: 250px;
   height: 200px;
   background-color: white;
-  box-shadow: 6px;
   border-radius: 15px;
   padding-top: 2px;
   padding-left: 2px;
@@ -316,7 +316,7 @@ section {
   height: 145px;
   margin: auto;
   background-color: white;
-  padding: 2px, 2px, 2px, 2px;
+  padding: 2px 2px 2px 2px;
   border-radius: 15px;
   justify-content: space-between;
   box-shadow: 2px 2px 6px grey;
@@ -337,7 +337,8 @@ section {
 
 .offres_pop p {
   font-size: 0.8em;
-  margin-top: 15px;
+  margin: auto;
+  margin-top: 25px;
 }
 .offres_pop .rating {
   position: absolute;
@@ -604,6 +605,7 @@ footer a {
   .logo img {
     width: 30%;
     margin-right: 20px;
+    margin-left: 10px;
     margin-top: 75px;
   }
 
@@ -630,42 +632,43 @@ footer a {
     border-top: none;
     border-bottom: solid #0065fc 3px;
     padding-bottom: 30px;
-    padding-left: 20px;
-    padding-right: 20px;
+    color: #0065fc;
+  }
+  .nav_border-top a:active {
+    border-top: none;
+    border-bottom: solid #0065fc 3px;
+    padding-bottom: 30px;
     color: #0065fc;
   }
 
   .nav_border-top div {
     margin: 0;
   }
-
   .nav_hébergements {
     width: 50%;
-
     text-align: center;
+  }
+  .nav_hébergements :hover {
+    border-bottom: #0065fc;
   }
 
   .nav_activités {
     width: 50%;
     text-align: center;
   }
+  .nav_activités :hover {
+    border-bottom: #0065fc;
+  }
 
   .presentation {
     margin-top: 20px;
+    margin-left: 10px;
   }
-  .filtres {
-    height: auto;
+  .champs_de_recherche {
+    margin-left: 10px;
+  }
+  .search_bar {
     width: auto;
-    flex-wrap: wrap;
-    margin: auto;
-    margin-top: 20px;
-  }
-  .button {
-    margin-top: 10px;
-  }
-  .filtres h3 {
-    margin-right: 200px;
-    margin-bottom: 15px;
   }
   .btn {
     border-top-left-radius: 12px;
@@ -675,12 +678,25 @@ footer a {
     display: none;
   }
 
-  .search_bar {
-    width: auto;
-  }
   .btn_ico {
     visibility: visible;
   }
+  .filtres {
+    height: auto;
+    width: auto;
+    flex-wrap: wrap;
+    margin: auto;
+    margin-top: 20px;
+    margin-left: 10px;
+  }
+  .button {
+    margin-top: 10px;
+  }
+  .filtres h3 {
+    margin-right: 200px;
+    margin-bottom: 15px;
+  }
+
   .info {
     margin: 15px;
   }
@@ -695,7 +711,6 @@ footer a {
   .hébergements {
     height: auto;
     width: 100%;
-
     flex-direction: column;
     background: none;
     border: none;
@@ -704,6 +719,10 @@ footer a {
 
   .hébergements h2 {
     margin-right: 0;
+    margin-left: 20px;
+  }
+  .Afficher_plus {
+    margin-left: 20px;
   }
   .offres {
     width: 90%;
@@ -729,6 +748,9 @@ footer a {
     margin: auto;
     border-radius: 0px;
   }
+  .populaires h2 {
+    margin-left: -30px;
+  }
 
   .offres_pop a {
     width: 90%;
@@ -742,6 +764,9 @@ footer a {
   .activités {
     flex-wrap: nowrap;
     height: auto;
+  }
+  aside h2 {
+    margin-left: 20px;
   }
   .activités > div {
     height: auto;
