@@ -29,7 +29,7 @@ body {
   margin: auto;
 }
 .bloc_page {
-  width: 1440px;
+  max-width: 1440px;
   margin: auto;
 }
 
@@ -64,14 +64,13 @@ header {
   height: 45px;
   width: 95px;
   margin-top: 60px;
-  margin-right: 800px;
+  margin-right: 600px;
 }
 
 nav {
   display: flex;
   justify-content: space-evenly;
 }
-
 .nav_border-top {
   display: flex;
   margin-top: 50px;
@@ -81,6 +80,7 @@ nav {
   padding-left: 20px;
   padding-right: 20px;
 }
+
 .nav_border-top a:hover {
   border-top: 3px solid #0065fc;
   padding-top: 47px;
@@ -513,7 +513,7 @@ footer a {
 
 /*******************Responsive****************/
 
-@media screen and (min-width: 769px) and (max-width: 1100px) {
+@media screen and (min-width: 769px) and (max-width: 1280px) {
   .bloc_page {
     width: auto;
     margin: auto;
@@ -523,7 +523,7 @@ footer a {
     flex-wrap: nowrap;
   }
   .Top_page img {
-    margin-right: 350px;
+    margin-right: 300px;
   }
   .nav_inscrire {
     float: left;
